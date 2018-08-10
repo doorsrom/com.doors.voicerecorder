@@ -1,2 +1,2 @@
 # com.doors.voicerecorder
-meh
+Voicerecorder for Android with Windows-Style 
