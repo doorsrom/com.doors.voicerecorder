@@ -6,4 +6,91 @@
     android:layout_height="match_parent"
     tools:context=".PlayRecording">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recordingName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:textAlignment="center"
+            android:text="Recording" />
+
+        <TextView
+            android:id="@+id/recordingTimeAndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#808080"
+            android:text="01/01/1901 00:00" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:gravity="bottom">
+
+            <ImageButton
+                android:id="@+id/bottomDelete"
+                android:layout_width="@dimen/bottom_button_width"
+                android:layout_height="@dimen/bottom_button_height"
+                android:layout_weight="1"
+                android:background="?android:attr/windowBackground"
+                android:paddingVertical="12dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/delete" />
+
+            <ImageButton
+                android:id="@+id/bottomTrim"
+                android:layout_width="@dimen/bottom_button_width"
+                android:layout_height="@dimen/bottom_button_height"
+                android:layout_weight="1"
+                android:background="?android:attr/windowBackground"
+                android:paddingVertical="12dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/trim" />
+
+            <ImageButton
+                android:id="@+id/bottomShare"
+                android:layout_width="@dimen/bottom_button_width"
+                android:layout_height="@dimen/bottom_button_height"
+                android:layout_weight="1"
+                android:background="?android:attr/windowBackground"
+                android:paddingVertical="12dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/share" />
+
+            <ImageButton
+                android:id="@+id/bottomEdit"
+                android:layout_width="@dimen/bottom_button_width"
+                android:layout_height="@dimen/bottom_button_height"
+                android:layout_weight="1"
+                android:background="?android:attr/windowBackground"
+                android:paddingVertical="12dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/edit" />
+
+            <ImageButton
+                android:id="@+id/showMore"
+                android:layout_width="@dimen/bottom_more_width"
+                android:layout_height="@dimen/bottom_button_height"
+                android:layout_weight="1"
+                android:background="?android:attr/windowBackground"
+                android:paddingVertical="12dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/show_more" />
+        </TableRow>
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Search Recordings"
+            android:hint="@string/search_bar"
             android:inputType="textFilter"
             android:singleLine="true" />
 
@@ -62,13 +62,13 @@
 
         <ImageButton
             android:id="@+id/showMore"
-            android:layout_width="56dp"
-            android:layout_height="24dp"
+            android:layout_width="@dimen/bottom_more_width"
+            android:layout_height="@dimen/bottom_more_collapsed_height"
             android:layout_alignParentEnd="true"
             android:layout_weight="1"
             android:scaleType="fitCenter"
             android:paddingHorizontal="12dp"
-            android:background="#000000"
+            android:background="?android:attr/windowBackground"
             app:srcCompat="@drawable/show_more" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

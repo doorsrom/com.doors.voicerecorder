@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_button_height">56dp</dimen>
+    <dimen name="bottom_button_width">94dp</dimen>
+    <dimen name="bottom_more_width">56dp</dimen>
+    <dimen name="bottom_more_collapsed_height">24dp</dimen>
+</resources>
